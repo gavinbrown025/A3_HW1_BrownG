@@ -2,6 +2,7 @@
 
     //* make an AJAX request using Fetch API
     fetch('./data/classData.json')  //* get the data 
+
         .then(res => res.json())//* convert it to json
         .then(data => {
             
